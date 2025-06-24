@@ -14,10 +14,10 @@
   "type": "commonjs",
   "description": "AI Service for climbing chatbot",
   "dependencies": {
-    "@huggingface/inference": "^2.6.4",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "openai": "^4.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

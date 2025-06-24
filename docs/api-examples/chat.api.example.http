@@ -1,0 +1,31 @@
+### Test de la route /chat de l'AI service
+POST http://localhost:3004/chat
+Content-Type: application/json
+
+{
+  "message": "Quels sont les meilleurs conseils pour progresser en escalade ?"
+}
+
+### Test de la route /chat de l'AI service
+POST http://localhost:3004/chat
+Content-Type: application/json
+
+{
+  "message": "J’ai souvent peur de tomber quand je grimpe, comment puis-je améliorer mon mental et grimper plus sereinement ?"
+}
+
+### Test de la route /chat de l'AI service
+POST http://localhost:3004/chat
+Content-Type: application/json
+
+{
+  "message": "Je veux m’équiper pour grimper en voie en salle, quels équipements sont indispensables pour commencer ?"
+}
+
+### Test de la route /chat de l'AI service
+POST http://localhost:3004/chat
+Content-Type: application/json
+
+{
+  "message": "Je débute en bloc, quels sont tes 3 meilleurs conseils pour progresser rapidement ?"
+}
