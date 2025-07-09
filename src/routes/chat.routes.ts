@@ -49,7 +49,7 @@ router.post("/chat", async (req, res) => {
 
     const responseContent = completion.choices[0]?.message?.content || "Désolé, je n'ai pas pu générer de réponse.";
     
-    res.json({ response: responseContent });
+    return res.json({ response: responseContent });
 
     // const prompt = `Climbing expert answer: ${message}\n1.`;
 
@@ -67,7 +67,7 @@ router.post("/chat", async (req, res) => {
     // res.json({ response: completion.choices[0].message.content });
   } catch (error) {
     console.error("Error:", error);
-    res.status(500).json({ error: "Internal server error" });
+    return res.status(500).json({ error: "Internal server error" });
   }
 });
 
