@@ -17,7 +17,7 @@ app.use("/", chatRoutes);
 
 // Route de test
 app.get("/health", (req: Request, res: Response) => {
-  return res.json({ status: "OK", message: "Service is running" });
+  return res.json({ status: "OK", service: "ai-service" });
 });
 
 app.listen(port, () => {
